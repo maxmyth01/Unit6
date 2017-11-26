@@ -12,8 +12,9 @@ characters = 0
 for line in file:
     line = line.strip()
     lines += 1
-    words += line.count(' ') + 1
-    characters += len(line)
+    if line != '':
+        words += line.count(' ') + 1
+        characters += len(line) - line.count(' ')
 
 print('Lines =', lines)
 print('Words =', words)
