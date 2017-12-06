@@ -11,3 +11,4 @@ for word in dictionary:
 for word in dictionary:
     if wordSize == len(word):
         print(word)
+        print(wordSize)
