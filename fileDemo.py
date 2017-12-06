@@ -6,7 +6,7 @@ dictionary = open('engmix.txt')
 
 wordCount = 0
 for word in dictionary:
-    if 'max' in word:
+    if 'smeds' in word:
         print(word.strip())
     wordCount += 1
     
