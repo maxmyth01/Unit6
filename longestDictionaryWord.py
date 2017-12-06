@@ -7,7 +7,7 @@ dictionary = open('engmix.txt')
 wordSize = 0
 for word in dictionary:
     if len(word) > wordsize:
-        wordsize = len(word) 
+        wordSize = len(word) 
 for word in dictionary:
-    if wordsize == len(word):
+    if wordSize == len(word):
         print(word)
