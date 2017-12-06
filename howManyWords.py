@@ -9,4 +9,5 @@ list = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for word in dictionary:
     list[len(word)] += 1
 
+print(list)
 
