@@ -8,9 +8,9 @@ for word in dictionary:
     letter = []
     r = []
     for ch in word:
-        letter.append[ch]
+        letter.append(ch)
     for ch in word:
-        r.append[ch]
-    r.reverse[]
+        r.append(ch)
+    r.reverse()
     if letter == r:
         print(word)
