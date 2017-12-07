@@ -9,5 +9,5 @@ wordnum = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for word in dictionary:
     wordnum[len(word)-1] += 1
 
-print(list)
+print(wordnum)
 
