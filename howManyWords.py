@@ -9,5 +9,10 @@ wordnum = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 for word in dictionary:
     wordnum[len(word)-1] += 1
 
-print(wordnum)
+i = 0
+for len(wordnum):
+    print('There are', wordnum[i],"words with", i+1,'letters')
+    i+=1
+
+
 
