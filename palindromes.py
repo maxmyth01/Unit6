@@ -9,7 +9,7 @@ for word in dictionary:
     r = []
     for ch in word:
         letter.append[ch]
-    for ch in word
+    for ch in word:
         r.append[ch]
     r.reverse[]
     if letter == r:
