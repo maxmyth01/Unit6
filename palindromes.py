@@ -5,5 +5,12 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word == word.reverse():
+    letter = []
+    r = []
+    for ch in word:
+        letter.append[ch]
+    for ch in word
+        r.append[ch]
+    r.reverse[]
+    if letter == r:
         print(word)
