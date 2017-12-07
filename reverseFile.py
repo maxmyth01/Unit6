@@ -4,7 +4,6 @@
 file = open(input('Enter a file name:'))
 for line in file:
     newline = []
-    for word in line:
-        newline.append(word.strip())
-    newline.reverse()
-    print(newline)
+    newline.append(line.strip())
+newline.reverse()
+print(newline)
