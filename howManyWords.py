@@ -4,10 +4,10 @@
 
 dictionary = open('engmix.txt')
 
-list = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+wordnum = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 for word in dictionary:
-    list[len(word)] += 1
+    wordnum[len(word)-1] += 1
 
 print(list)
 
