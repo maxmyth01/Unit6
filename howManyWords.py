@@ -10,7 +10,7 @@ for word in dictionary:
     wordnum[len(word)-1] += 1
 
 i = 0
-for len(wordnum):
+while i <= len(wordnum):
     print('There are', wordnum[i],"words with", i+1,'letters')
     i+=1
 
