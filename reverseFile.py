@@ -4,4 +4,5 @@
 
 file = open(input('Enter a file name:'))
 
-print(file)
+for line in file:
+    print(line)
