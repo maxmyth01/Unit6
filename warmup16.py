@@ -6,7 +6,8 @@ dictionary = open('engmix.txt')
 
 Mlist = []
 for line in dictionary:
-    if line.strip()[0] == 'm':
+    line = line.strip()
+    if line[0] == 'm':
         Mlist.append(line)
 for word in Mlist:
     if word[len(word)-1] == "l":
