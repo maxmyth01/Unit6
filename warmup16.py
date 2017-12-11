@@ -7,5 +7,5 @@ dictionary = open('engmix.txt')
 for line in dictionary:
     line = line.strip()
     if line != "":
-        if line[0] == 'm' and word[len(word)-1] == "l":
+        if line[0] == 'm' and line[-1] == "l":
             print(line)
