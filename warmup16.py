@@ -8,6 +8,6 @@ Mlist = []
 for line in dictionary:
     if line.strip()[0] == 'm':
         Mlist.append()
-        for word in Mlist:
-            if word[len(word)-1] == "l":
-                print(word)
+for word in Mlist:
+    if word[len(word)-1] == "l":
+        print(word)
