@@ -5,6 +5,7 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
+    word = word.strip
     letter = []
     r = []
     for ch in word:
