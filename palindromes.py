@@ -6,12 +6,13 @@ dictionary = open('engmix.txt')
 
 for word in dictionary:
     word = word.strip
-    letter = []
-    r = []
-    for ch in word:
-        letter.append(ch)
-    for ch in word:
-        r.append(ch)
-    r.reverse()
-    if letter == r:
-        print(word)
+    if word != "":
+        letter = []
+        r = []
+        for ch in word:
+            letter.append(ch)
+        for ch in word:
+            r.append(ch)
+        r.reverse()
+        if letter == r:
+            print(word)
