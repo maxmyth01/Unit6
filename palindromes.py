@@ -10,5 +10,5 @@ for word in dictionary:
         letter = []
         for ch in word:
             letter.append(ch)
-        if letter == letter.reverse():
+        if letter[:] == letter.reverse():
             print(word)
