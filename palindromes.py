@@ -5,7 +5,7 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    word = word.strip
+    word = word.strip()
     if word != "":
         letter = []
         for ch in word:
