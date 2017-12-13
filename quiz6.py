@@ -52,11 +52,10 @@ print(num,"words do not contain", l)
 #5
 diction = []
 even_odd = False
-"""
-for word in dictionary:
+for word.strip() in dictionary:
+    num += 1
     diction.append(word)
-    """
-if len(dictionary.strip())% 2 == 0:
+if num% 2 == 0:
     even_odd = True
     print(even_odd)
     
