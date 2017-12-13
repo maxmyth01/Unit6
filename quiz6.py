@@ -28,7 +28,7 @@ for word in dictionary:
 print(num)
 """
 
-"""
+
 #3
 num = int(input("Enter a number: "))
 for word in dictionary:
@@ -37,7 +37,7 @@ for word in dictionary:
         if len(word) == num:
             print(word)
             break
-"""
+
 
 """
 #4
@@ -49,6 +49,7 @@ for word in dictionary:
 print(num,"words do not contain", l)
 """
 
+"""
 #5
 diction = []
 num =0
@@ -57,6 +58,7 @@ for word in dictionary:
     num += 1
     diction.append(word)
 print(diction[num//2])
+"""
 
 
     
