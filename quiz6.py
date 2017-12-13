@@ -26,6 +26,7 @@ for word in dictionary:
 print(num)
 """
 
+"""
 num = int(input("Enter a number: "))
 for word in dictionary:
     word = word.strip
@@ -33,3 +34,12 @@ for word in dictionary:
         if len(word) == num:
             print(word)
             break
+"""
+l = str(input("Enter a letter:"))
+for word in dictionary:
+    if l not in word:
+        print(word)
+    
+        
+        
+
