@@ -3,6 +3,8 @@
 #quiz6.py -- search dictionary for words with 3c's and 2p's -- words that start with r -- for a inputed number print the first word with that many letters -- ask user for letter print out all word w/o that letter -- load dictionary into list print the middle
 
 dictionary = open("engmix.txt")
+
+"""
 for word in dictionary:
     c=0
     p=0
@@ -12,4 +14,9 @@ for word in dictionary:
         elif letter == "p":
             p+=1
     if c == 3 and p == 2:
+        print(word)
+"""
+
+for word in dictionary:
+    if word[0] == "r":
         print(word)
