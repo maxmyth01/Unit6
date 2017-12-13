@@ -56,7 +56,7 @@ even_odd = False
 for word in dictionary:
     diction.append(word)
     """
-if len(dictionary.strip())% 2 = 0:
+if len(dictionary.strip())% 2 == 0:
     even_odd = True
     print(even_odd)
     
