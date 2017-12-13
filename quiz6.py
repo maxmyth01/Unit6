@@ -28,17 +28,6 @@ for word in dictionary:
 print(num)
 """
 
-
-#3
-num = int(input("Enter a number: "))
-for word in dictionary:
-    word = word.strip
-    if word != "":
-        if len(word) == num:
-            print(word)
-            break
-
-
 """
 #4
 num =0
