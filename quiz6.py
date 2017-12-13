@@ -60,6 +60,7 @@ for word in dictionary:
 if num% 2 == 0:
     even_odd = True
 print(even_odd)
+print(dictionary[num//2])
     
     
         
