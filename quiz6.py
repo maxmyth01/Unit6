@@ -19,7 +19,7 @@ for word in dictionary:
 
 num =0 
 for word in dictionary:
-    if word != ""
+    if word != "":
         if word.strip()[0] == "r":
             num +=1
 print(num)
