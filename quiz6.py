@@ -17,9 +17,17 @@ for word in dictionary:
         print(word)
 """
 
+"""
 num =0 
 for word in dictionary:
     if word != "":
         if word.strip()[0] == "r":
             num +=1
 print(num)
+"""
+
+num = int(input("Enter a number: "))
+for word in dictionary:
+    if len(word) == num:
+        print(word)
+        break
