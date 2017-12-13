@@ -51,9 +51,7 @@ print(num,"words do not contain", l)
 
 #5
 diction = []
-even_odd = False
 num =0
-x =0
 for word in dictionary:
     word = word.strip()
     num += 1
