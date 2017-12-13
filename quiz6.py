@@ -28,6 +28,8 @@ print(num)
 
 num = int(input("Enter a number: "))
 for word in dictionary:
-    if len(word) == num:
-        print(word)
-        break
+    word = word.strip
+    if word != "":
+        if len(word) == num:
+            print(word)
+            break
