@@ -19,6 +19,6 @@ for word in dictionary:
 
 num =0 
 for word in dictionary:
-    if word[0] == "r":
+    if word.strip()[0] == "r":
         num +=1
 print(num)
