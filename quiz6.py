@@ -5,6 +5,7 @@
 dictionary = open("engmix.txt")
 
 """
+#1
 for word in dictionary:
     c=0
     p=0
@@ -18,6 +19,7 @@ for word in dictionary:
 """
 
 """
+#2
 num =0 
 for word in dictionary:
     if word != "":
@@ -27,6 +29,7 @@ print(num)
 """
 
 """
+#3
 num = int(input("Enter a number: "))
 for word in dictionary:
     word = word.strip
@@ -35,12 +38,28 @@ for word in dictionary:
             print(word)
             break
 """
+
+"""
+#4
 num =0
 l = str(input("Enter a letter:"))
 for word in dictionary:
     if l not in word:
         num += 1
 print(num,"words do not contain", l)
+"""
+
+#5
+diction = []
+even_odd = False
+"""
+for word in dictionary:
+    diction.append(word)
+    """
+if len(dictionary.strip)% 2 = 0:
+    even_odd = True
+    print(even_odd)
+    
     
         
         
