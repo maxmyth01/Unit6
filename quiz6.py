@@ -17,6 +17,8 @@ for word in dictionary:
         print(word)
 """
 
+num =0 
 for word in dictionary:
     if word[0] == "r":
-        print(word)
+        num +=1
+print(num)
