@@ -40,7 +40,7 @@ l = str(input("Enter a letter:"))
 for word in dictionary:
     if l not in word:
         num += 1
-print(num'"do not contain", l)
+print(num,"words do not contain", l)
     
         
         
