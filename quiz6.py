@@ -35,10 +35,12 @@ for word in dictionary:
             print(word)
             break
 """
+num =0
 l = str(input("Enter a letter:"))
 for word in dictionary:
     if l not in word:
-        print(word)
+        num += 1
+print(num)
     
         
         
