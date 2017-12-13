@@ -1,6 +1,6 @@
 #Max Low
 #12-13-17
-#quiz6.py -- search dictionary for words with 3c's and 2p's -- words that start with r -- for a inputed number print the first word with that many letters -- ask user for letter print out all word w/o that letter -- load dictionary into list print the middle
+#quiz6.py -- search dictionary for words with 3c's and 2p's -- number of words that start with r -- for a inputed number print the first word with that many letters -- ask user for letter print out all word w/o that letter -- load dictionary into list print the middle
 
 dictionary = open("engmix.txt")
 
